@@ -1,0 +1,213 @@
+PS C:\Users\Tisan\Documents\workspace\concurrency problems\reader_writer_problem> go run .
+Hello!
+--->  5
+--->  5
+Error ocurred while opening file:  sample.txt  --> this one is expected
+--->  &{0xc0000563e0 0 0 {0 0} {0 0} 0xc0000640a0} &{0xc000056400 0 0 {0 0} {0 0} 0xc0000640f0}   
+2024/05/18 20:17:58 Initiating Simultaneous Reader Writer Execution!
+2024/05/18 20:17:58 Triggering a reader call from reader thread:0 itr:0
+2024/05/18 20:17:58 Triggering a reader call from reader thread:3 itr:0
+2024/05/18 20:17:58 Triggering a reader call from reader thread:1 itr:0
+2024/05/18 20:17:58 Triggering a reader call from reader thread:6 itr:0
+2024/05/18 20:17:58 Triggering a reader call from reader thread:4 itr:0
+2024/05/18 20:17:58 Triggering a reader call from reader thread:5 itr:0
+2024/05/18 20:17:58 Triggering a reader call from reader thread:8 itr:0
+2024/05/18 20:17:58 Triggering a reader call from reader thread:7 itr:0
+2024/05/18 20:17:58 Triggering a reader call from reader thread:2 itr:0
+2024/05/18 20:17:58 Triggering a reader call from reader thread:9 itr:0
+2024/05/18 20:17:58 Triggering a reader call from reader thread:10 itr:0
+2024/05/18 20:17:58 Triggering a writer call from reader thread:0 itr:0
+2024/05/18 20:17:58 Triggering a writer call from reader thread:1 itr:0
+2024/05/18 20:17:58 Triggering a writer call from reader thread:2 itr:0
+2024/05/18 20:17:58 Triggering a writer call from reader thread:3 itr:0
+2024/05/18 20:17:58 Triggering a writer call from reader thread:4 itr:0
+2024/05/18 20:17:58 Triggering a writer call from reader thread:5 itr:0
+2024/05/18 20:17:59 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:18:09 Current ReaderWriter perf while reading: (Readers:1, Writers:0)
+2024/05/18 20:18:09 Current ReaderWriter perf while reading: (Readers:2, Writers:0)
+2024/05/18 20:18:09 Current ReaderWriter perf while reading: (Readers:3, Writers:0)
+2024/05/18 20:18:09 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:09 Triggering a writer call from reader thread:5 itr:1
+2024/05/18 20:18:09 Current ReaderWriter perf while reading: (Readers:5, Writers:0)
+2024/05/18 20:18:14 Triggering a reader call from reader thread:0 itr:1
+2024/05/18 20:18:14 Triggering a reader call from reader thread:6 itr:1
+2024/05/18 20:18:14 Triggering a reader call from reader thread:10 itr:1
+2024/05/18 20:18:14 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:14 Triggering a reader call from reader thread:4 itr:1
+2024/05/18 20:18:14 Triggering a reader call from reader thread:8 itr:1
+2024/05/18 20:18:14 Current ReaderWriter perf while reading: (Readers:3, Writers:0)
+2024/05/18 20:18:14 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:14 Current ReaderWriter perf while reading: (Readers:5, Writers:0)
+2024/05/18 20:18:14 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:19 Triggering a reader call from reader thread:9 itr:1
+2024/05/18 20:18:19 Triggering a reader call from reader thread:1 itr:1
+2024/05/18 20:18:19 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:19 Current ReaderWriter perf while reading: (Readers:5, Writers:0)
+2024/05/18 20:18:19 Triggering a reader call from reader thread:2 itr:1
+2024/05/18 20:18:19 Current ReaderWriter perf while reading: (Readers:5, Writers:0)
+2024/05/18 20:18:19 Triggering a reader call from reader thread:5 itr:1
+2024/05/18 20:18:19 Current ReaderWriter perf while reading: (Readers:5, Writers:0)
+2024/05/18 20:18:19 Triggering a reader call from reader thread:3 itr:1
+2024/05/18 20:18:19 Current ReaderWriter perf while reading: (Readers:5, Writers:0)
+2024/05/18 20:18:24 Triggering a reader call from reader thread:10 itr:2
+2024/05/18 20:18:24 Current ReaderWriter perf while reading: (Readers:5, Writers:0)
+2024/05/18 20:18:24 Triggering a reader call from reader thread:4 itr:2
+2024/05/18 20:18:24 Current ReaderWriter perf while reading: (Readers:5, Writers:0)
+2024/05/18 20:18:24 Triggering a reader call from reader thread:7 itr:1
+2024/05/18 20:18:24 Triggering a reader call from reader thread:0 itr:2
+2024/05/18 20:18:24 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:24 Triggering a reader call from reader thread:6 itr:2
+2024/05/18 20:18:24 Current ReaderWriter perf while reading: (Readers:5, Writers:0)
+2024/05/18 20:18:24 Current ReaderWriter perf while reading: (Readers:5, Writers:0)
+2024/05/18 20:18:29 Triggering a reader call from reader thread:2 itr:2
+2024/05/18 20:18:29 Triggering a reader call from reader thread:3 itr:2
+2024/05/18 20:18:29 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:29 Triggering a reader call from reader thread:8 itr:2
+2024/05/18 20:18:29 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:29 Triggering a reader call from reader thread:1 itr:2
+2024/05/18 20:18:29 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:29 Triggering a reader call from reader thread:9 itr:2
+2024/05/18 20:18:29 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:29 Current ReaderWriter perf while reading: (Readers:5, Writers:0)
+2024/05/18 20:18:34 Triggering a reader call from reader thread:4 itr:3
+2024/05/18 20:18:34 Triggering a reader call from reader thread:7 itr:2
+2024/05/18 20:18:34 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:34 Triggering a reader call from reader thread:5 itr:2
+2024/05/18 20:18:34 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:34 Current ReaderWriter perf while reading: (Readers:5, Writers:0)
+2024/05/18 20:18:34 Triggering a reader call from reader thread:10 itr:3
+2024/05/18 20:18:34 Current ReaderWriter perf while reading: (Readers:5, Writers:0)
+2024/05/18 20:18:34 Triggering a reader call from reader thread:6 itr:3
+2024/05/18 20:18:34 Current ReaderWriter perf while reading: (Readers:5, Writers:0)
+2024/05/18 20:18:39 Triggering a reader call from reader thread:3 itr:3
+2024/05/18 20:18:39 Triggering a reader call from reader thread:8 itr:3
+2024/05/18 20:18:39 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:39 Triggering a reader call from reader thread:1 itr:3
+2024/05/18 20:18:39 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:39 Triggering a reader call from reader thread:2 itr:3
+2024/05/18 20:18:39 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:39 Triggering a reader call from reader thread:0 itr:3
+2024/05/18 20:18:39 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:39 Current ReaderWriter perf while reading: (Readers:5, Writers:0)
+2024/05/18 20:18:44 Triggering a reader call from reader thread:9 itr:3
+2024/05/18 20:18:44 Triggering a reader call from reader thread:5 itr:3
+2024/05/18 20:18:44 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:44 Triggering a reader call from reader thread:6 itr:4
+2024/05/18 20:18:44 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:44 Triggering a reader call from reader thread:4 itr:4
+2024/05/18 20:18:44 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:44 Triggering a reader call from reader thread:7 itr:3
+2024/05/18 20:18:44 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:44 Current ReaderWriter perf while reading: (Readers:5, Writers:0)
+2024/05/18 20:18:49 Triggering a reader call from reader thread:2 itr:4
+2024/05/18 20:18:49 Triggering a reader call from reader thread:3 itr:4
+2024/05/18 20:18:49 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:49 Triggering a reader call from reader thread:8 itr:4
+2024/05/18 20:18:49 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:49 Triggering a reader call from reader thread:1 itr:4
+2024/05/18 20:18:49 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:49 Triggering a reader call from reader thread:10 itr:4
+2024/05/18 20:18:49 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:49 Current ReaderWriter perf while reading: (Readers:5, Writers:0)
+2024/05/18 20:18:54 Triggering a reader call from reader thread:6 itr:5
+2024/05/18 20:18:54 Triggering a reader call from reader thread:9 itr:4
+2024/05/18 20:18:54 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:54 Triggering a reader call from reader thread:7 itr:4
+2024/05/18 20:18:54 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:54 Triggering a reader call from reader thread:0 itr:4
+2024/05/18 20:18:54 Triggering a reader call from reader thread:5 itr:4
+2024/05/18 20:18:54 Current ReaderWriter perf while reading: (Readers:3, Writers:0)
+2024/05/18 20:18:54 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:54 Current ReaderWriter perf while reading: (Readers:5, Writers:0)
+2024/05/18 20:18:59 Triggering a reader call from reader thread:3 itr:5
+2024/05/18 20:18:59 Triggering a reader call from reader thread:2 itr:5
+2024/05/18 20:18:59 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:59 Triggering a reader call from reader thread:10 itr:5
+2024/05/18 20:18:59 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:59 Triggering a reader call from reader thread:1 itr:5
+2024/05/18 20:18:59 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:59 Triggering a reader call from reader thread:4 itr:5
+2024/05/18 20:18:59 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:18:59 Current ReaderWriter perf while reading: (Readers:5, Writers:0)
+2024/05/18 20:19:04 Triggering a reader call from reader thread:8 itr:5
+2024/05/18 20:19:04 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:19:04 Triggering a reader call from reader thread:5 itr:5
+2024/05/18 20:19:04 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:19:04 Triggering a reader call from reader thread:9 itr:5
+2024/05/18 20:19:04 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:19:04 Triggering a reader call from reader thread:0 itr:5
+2024/05/18 20:19:04 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:19:04 Current ReaderWriter perf while reading: (Readers:5, Writers:0)
+2024/05/18 20:19:09 Triggering a reader call from reader thread:7 itr:5
+2024/05/18 20:19:09 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:19:09 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:19:09 Current ReaderWriter perf while reading: (Readers:3, Writers:0)
+2024/05/18 20:19:09 Current ReaderWriter perf while reading: (Readers:4, Writers:0)
+2024/05/18 20:19:09 Current ReaderWriter perf while reading: (Readers:5, Writers:0)
+2024/05/18 20:19:14 Current ReaderWriter perf while reading: (Readers:5, Writers:0)
+2024/05/18 20:19:19 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:19:29 Triggering a writer call from reader thread:3 itr:1
+2024/05/18 20:19:29 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:19:39 Triggering a writer call from reader thread:4 itr:1
+2024/05/18 20:19:39 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:19:49 Triggering a writer call from reader thread:1 itr:1
+2024/05/18 20:19:49 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:19:59 Triggering a writer call from reader thread:0 itr:1
+2024/05/18 20:19:59 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:20:09 Triggering a writer call from reader thread:2 itr:1
+2024/05/18 20:20:09 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:20:19 Triggering a writer call from reader thread:5 itr:2
+2024/05/18 20:20:19 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:20:29 Triggering a writer call from reader thread:3 itr:2
+2024/05/18 20:20:29 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:20:39 Triggering a writer call from reader thread:4 itr:2
+2024/05/18 20:20:39 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:20:49 Triggering a writer call from reader thread:1 itr:2
+2024/05/18 20:20:49 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:20:59 Triggering a writer call from reader thread:0 itr:2
+2024/05/18 20:20:59 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:21:09 Triggering a writer call from reader thread:2 itr:2
+2024/05/18 20:21:09 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:21:19 Triggering a writer call from reader thread:5 itr:3
+2024/05/18 20:21:19 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:21:29 Triggering a writer call from reader thread:3 itr:3
+2024/05/18 20:21:29 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:21:39 Triggering a writer call from reader thread:4 itr:3
+2024/05/18 20:21:39 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:21:49 Triggering a writer call from reader thread:1 itr:3
+2024/05/18 20:21:49 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:21:59 Triggering a writer call from reader thread:0 itr:3
+2024/05/18 20:21:59 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:22:09 Triggering a writer call from reader thread:2 itr:3
+2024/05/18 20:22:09 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:22:19 Triggering a writer call from reader thread:5 itr:4
+2024/05/18 20:22:19 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:22:29 Triggering a writer call from reader thread:3 itr:4
+2024/05/18 20:22:29 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:22:39 Triggering a writer call from reader thread:4 itr:4
+2024/05/18 20:22:39 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:22:49 Triggering a writer call from reader thread:1 itr:4
+2024/05/18 20:22:49 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:22:59 Triggering a writer call from reader thread:0 itr:4
+2024/05/18 20:22:59 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:23:09 Triggering a writer call from reader thread:2 itr:4
+2024/05/18 20:23:09 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:23:19 Triggering a writer call from reader thread:5 itr:5
+2024/05/18 20:23:19 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:23:29 Triggering a writer call from reader thread:3 itr:5
+2024/05/18 20:23:29 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:23:39 Triggering a writer call from reader thread:4 itr:5
+2024/05/18 20:23:39 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:23:49 Triggering a writer call from reader thread:1 itr:5
+2024/05/18 20:23:49 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:23:59 Triggering a writer call from reader thread:0 itr:5
+2024/05/18 20:23:59 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:24:10 Triggering a writer call from reader thread:2 itr:5
+2024/05/18 20:24:10 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:24:20 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:24:30 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:24:40 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:24:50 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:25:00 Current ReaderWriter perf while writing: (Readers:0, Writers:1)
+2024/05/18 20:25:10 Execution Completed!!
+PS C:\Users\Tisan\Documents\workspace\concurrency problems\reader_writer_problem>
