@@ -1,0 +1,42 @@
+2024/05/19 23:22:06 ------- Part 1: Generating random numbers -------
+2024/05/19 23:22:06 Initiating random data generation for index: 0
+2024/05/19 23:22:06 Generating 142 numbers for index: 0
+2024/05/19 23:22:06 Initiating random data generation for index: 4
+2024/05/19 23:22:06 Storing the random data generated to file C:\Users\Tisan\Documents\workspace\concurrency problems\mapper_reducer_sorter_problem\operations\random_data_generated_0.txt for index: 0
+2024/05/19 23:22:06 Initiating random data generation for index: 1
+2024/05/19 23:22:06 Generating 376 numbers for index: 4
+2024/05/19 23:22:06 Initiating random data generation for index: 2
+2024/05/19 23:22:06 Generating 284 numbers for index: 2
+2024/05/19 23:22:06 Initiating random data generation for index: 3
+2024/05/19 23:22:06 Generating 586 numbers for index: 3
+2024/05/19 23:22:06 Generating 266 numbers for index: 1
+2024/05/19 23:22:06 Storing the random data generated to file C:\Users\Tisan\Documents\workspace\concurrency problems\mapper_reducer_sorter_problem\operations\random_data_generated_4.txt for index: 4
+2024/05/19 23:22:06 Storing the random data generated to file C:\Users\Tisan\Documents\workspace\concurrency problems\mapper_reducer_sorter_problem\operations\random_data_generated_2.txt for index: 2
+2024/05/19 23:22:06 Storing the random data generated to file C:\Users\Tisan\Documents\workspace\concurrency problems\mapper_reducer_sorter_problem\operations\random_data_generated_1.txt for index: 1
+2024/05/19 23:22:06 Storing the random data generated to file C:\Users\Tisan\Documents\workspace\concurrency problems\mapper_reducer_sorter_problem\operations\random_data_generated_3.txt for index: 3
+2024/05/19 23:22:06 ------- Part 2: Mapper intermediate sorter -------
+2024/05/19 23:22:06 Reading the intermediate file C:\Users\Tisan\Documents\workspace\concurrency problems\mapper_reducer_sorter_problem\operations\random_data_generated_4.txt for index: 4
+2024/05/19 23:22:06 Reading the intermediate file C:\Users\Tisan\Documents\workspace\concurrency problems\mapper_reducer_sorter_problem\operations\random_data_generated_1.txt for index: 1
+2024/05/19 23:22:06 Reading the intermediate file C:\Users\Tisan\Documents\workspace\concurrency problems\mapper_reducer_sorter_problem\operations\random_data_generated_2.txt for index: 2
+2024/05/19 23:22:06 Reading the intermediate file C:\Users\Tisan\Documents\workspace\concurrency problems\mapper_reducer_sorter_problem\operations\random_data_generated_0.txt for index: 0
+2024/05/19 23:22:06 Reading the intermediate file C:\Users\Tisan\Documents\workspace\concurrency problems\mapper_reducer_sorter_problem\operations\random_data_generated_3.txt for index: 3
+2024/05/19 23:22:06 Converting and sorting the data read from file C:\Users\Tisan\Documents\workspace\concurrency problems\mapper_reducer_sorter_problem\operations\random_data_generated_0.txt for index: 0
+2024/05/19 23:22:06 Storing the sorted data to file C:\Users\Tisan\Documents\workspace\concurrency problems\mapper_reducer_sorter_problem\operations\intermediate_sorted_data_0.txt for index: 0
+2024/05/19 23:22:06 Converting and sorting the data read from file C:\Users\Tisan\Documents\workspace\concurrency problems\mapper_reducer_sorter_problem\operations\random_data_generated_1.txt for index: 1
+2024/05/19 23:22:06 Converting and sorting the data read from file C:\Users\Tisan\Documents\workspace\concurrency problems\mapper_reducer_sorter_problem\operations\random_data_generated_4.txt for index: 4
+2024/05/19 23:22:06 Converting and sorting the data read from file C:\Users\Tisan\Documents\workspace\concurrency problems\mapper_reducer_sorter_problem\operations\random_data_generated_3.txt for index: 3
+2024/05/19 23:22:06 Storing the sorted data to file C:\Users\Tisan\Documents\workspace\concurrency problems\mapper_reducer_sorter_problem\operations\intermediate_sorted_data_1.txt for index: 1
+2024/05/19 23:22:06 Storing the sorted data to file C:\Users\Tisan\Documents\workspace\concurrency problems\mapper_reducer_sorter_problem\operations\intermediate_sorted_data_4.txt for index: 4
+2024/05/19 23:22:06 Storing the sorted data to file C:\Users\Tisan\Documents\workspace\concurrency problems\mapper_reducer_sorter_problem\operations\intermediate_sorted_data_3.txt for index: 3
+2024/05/19 23:22:06 Converting and sorting the data read from file C:\Users\Tisan\Documents\workspace\concurrency problems\mapper_reducer_sorter_problem\operations\random_data_generated_2.txt for index: 2
+2024/05/19 23:22:06 Storing the sorted data to file C:\Users\Tisan\Documents\workspace\concurrency problems\mapper_reducer_sorter_problem\operations\intermediate_sorted_data_2.txt for index: 2
+2024/05/19 23:22:06 ------- Part 3: Reducer final sorter -------
+2024/05/19 23:22:06 Initializing the cursor for all the intermediate sorted files
+[2531842027569906 24269847675835834 9732527410741800 773879318341696 1236003032108786]
+2024/05/19 23:22:06 Initiating the streaming merge sort operation on all the opened file
+2024/05/19 23:22:06 ------- Completed -------
+Execution started at:  2024-05-19T23:22:06+05:30
+Execution ended at:  2024-05-19T23:22:06+05:30
+Execution duration:  473.6836ms
+Initial numbers generated:  1654
+Total entries at final sorted file:  1654
