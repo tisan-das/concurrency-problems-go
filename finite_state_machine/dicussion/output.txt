@@ -1,0 +1,17 @@
+2024/05/20 12:41:15 Triggering the state conversion with the events [coin coin push push coin] for the state machine: &{initialState:locked currentState:locked stateTransitionTable:0xc0000ca018}
+2024/05/20 12:41:15 Before handing event coin at index 0 Current state of FSM: locked
+2024/05/20 12:41:15 Method coinInserted: Coin Inserted with current state locked
+2024/05/20 12:41:15 After handing event coin at index 0 Current state of FSM: unlocked
+2024/05/20 12:41:15 Before handing event coin at index 1 Current state of FSM: unlocked
+2024/05/20 12:41:15 Method coinInserted: Coin Inserted with current state unlocked
+2024/05/20 12:41:15 After handing event coin at index 1 Current state of FSM: unlocked
+2024/05/20 12:41:15 Before handing event push at index 2 Current state of FSM: unlocked
+2024/05/20 12:41:15 Method pushedButton: Button pushed with current state unlocked
+2024/05/20 12:41:15 After handing event push at index 2 Current state of FSM: locked
+2024/05/20 12:41:15 Before handing event push at index 3 Current state of FSM: locked
+2024/05/20 12:41:15 Method pushedButton: Button pushed with current state locked
+2024/05/20 12:41:15 After handing event push at index 3 Current state of FSM: locked
+2024/05/20 12:41:15 Before handing event coin at index 4 Current state of FSM: locked
+2024/05/20 12:41:15 Method coinInserted: Coin Inserted with current state locked
+2024/05/20 12:41:15 After handing event coin at index 4 Current state of FSM: unlocked
+2024/05/20 12:41:15 Execution Completed!

@@ -1,0 +1,20 @@
+2024/05/20 13:21:21 Triggering the state conversion with the events [coin coin push push coin touch] for the state machine: &{initialState:locked currentState:locked stateTransitionTable:0xc00000a028}
+2024/05/20 13:21:21 Before handing event coin at index 0 Current state of FSM: locked
+2024/05/20 13:21:21 Method coinInserted: Coin Inserted with current state locked
+2024/05/20 13:21:21 After handing event coin at index 0 Current state of FSM: unlocked
+2024/05/20 13:21:21 Before handing event coin at index 1 Current state of FSM: unlocked
+2024/05/20 13:21:21 Method coinInserted: Coin Inserted with current state unlocked
+2024/05/20 13:21:21 After handing event coin at index 1 Current state of FSM: unlocked
+2024/05/20 13:21:21 Before handing event push at index 2 Current state of FSM: unlocked
+2024/05/20 13:21:21 Method pushedButton: Button pushed with current state unlocked
+2024/05/20 13:21:21 After handing event push at index 2 Current state of FSM: locked
+2024/05/20 13:21:21 Before handing event push at index 3 Current state of FSM: locked
+2024/05/20 13:21:21 Method pushedButton: Button pushed with current state locked
+2024/05/20 13:21:21 After handing event push at index 3 Current state of FSM: locked
+2024/05/20 13:21:21 Before handing event coin at index 4 Current state of FSM: locked
+2024/05/20 13:21:21 Method coinInserted: Coin Inserted with current state locked
+2024/05/20 13:21:21 After handing event coin at index 4 Current state of FSM: unlocked
+2024/05/20 13:21:21 Before handing event touch at index 5 Current state of FSM: unlocked
+2024/05/20 13:21:21 Error: Action not found for event touch from the current state unlocked
+2024/05/20 13:21:21 After handing event touch at index 5 Current state of FSM: unlocked
+2024/05/20 13:21:21 Execution Completed!
